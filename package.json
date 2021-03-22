@@ -1,0 +1,25 @@
+{
+  "name": "career-keireki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "grgr-dkrk",
+  "license": "MIT",
+  "scripts": {
+    "pdf:create": "cat ./career.md | yarn md-to-pdf > ./dist/career.pdf",
+    "lint": "textlint ./career.md",
+    "lint:fix": "textlint --fix ./career.md"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^3.3.1",
+    "textlint": "^11.9.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
+    "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-no-space-around-parentheses": "^2.0.2",
+    "textlint-rule-ja-space-around-code": "^2.0.2",
+    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-preset-jtf-style": "^2.3.8"
+  }
+}
