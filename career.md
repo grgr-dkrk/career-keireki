@@ -1,4 +1,4 @@
-※この PDF は [https://github.com/grgr-dkrk/career-keireki/career.md](https://github.com/grgr-dkrk/career-keireki/career.md)の内容と同じです
+※この PDF は [https://github.com/grgr-dkrk/career-keireki/blob/main/career.md](https://github.com/grgr-dkrk/career-keireki/blob/main/career.md)の内容と同じです
 
 ## 目次
 1. [自己紹介](#自己紹介)
